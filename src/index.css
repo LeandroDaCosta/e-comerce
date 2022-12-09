@@ -22,6 +22,7 @@ background-color: rgb(253, 253, 253);
     width: 100%;
     height: 3.5%;
     justify-content: space-between;
+   
     align-items: center;
     font-size: 12px;
    
@@ -39,10 +40,15 @@ margin-left: 162px;
 .header{
     background-color: rgb(255, 255, 255);
     display: flex;
-    
+    position: fixed;
+    left: 20px;
+    top: 43px;
     height: 70px;
+    width: 200vh;
     align-items: center;
     justify-content:space-between;
+    
+
 }
 
 
@@ -51,6 +57,7 @@ margin-left: 162px;
     display: flex;
     align-items: center;
     width: 80vh;
+    
     justify-content:space-between;
 }
 .header-logo{
@@ -80,5 +87,17 @@ text-align: center;
 .header-text-underline:hover{
     text-decoration: underline;
     cursor: pointer;
+
+}
+
+
+.header-text:hover{
+    display: flex;
+   border-bottom: 3px solid;
+    cursor: pointer;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+   
 
 }
